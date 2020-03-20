@@ -33,14 +33,14 @@ body{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color: blue;
-    overflow: hidden;
     margin-top: auto;
 }
 .iconContainerNew {
-
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 .userInfoContainer > h2{
@@ -71,12 +71,14 @@ body{
     height: 100px;
     vertical-align: middle;
 }
-.horizontlAling{
-    display: flex;
-    height: 100%;
+
+.userPicture{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 20px;
 }
 
-}
 .horizontlAling + .horizontlAling{
-    margin-left: ;
+
 }
