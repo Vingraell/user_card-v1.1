@@ -1,0 +1,82 @@
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+.userCardContainer{
+    width: 370px;
+    background-color:beige;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Permanent Marker', sans-serif;
+
+}
+.userCardHeader{
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+.userInfoContainer{
+
+}
+
+.userInfoContainer > *{
+    margin: 0 auto;
+}
+.profilePicture{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: blue;
+    overflow: hidden;
+    margin-top: auto;
+}
+.iconContainerNew {
+
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.userInfoContainer > h2{
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    padding: inherit;
+}
+.userInfoContainer > h3{
+    text-align: center;
+    margin-top: 5px;
+    color: rebeccapurple;
+    padding: inherit;
+}
+.userInfoContainer > h5{
+    text-align: center;
+    margin-top: 5px;
+    color: darkred;
+    padding: inherit;
+}
+.iconContainer{
+    text-align: center;
+    display: inline-block;
+}
+
+.verticalAling{
+    display: inline-block;
+    height: 100px;
+    vertical-align: middle;
+}
+.horizontlAling{
+    display: flex;
+    height: 100%;
+}
+
+}
+.horizontlAling + .horizontlAling{
+    margin-left: ;
+}
